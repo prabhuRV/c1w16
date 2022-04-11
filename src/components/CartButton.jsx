@@ -23,6 +23,7 @@ const CartButton = () => {
       <p className="count-item">{count}</p>
       <button onClick={()=>handleInc()}>+</button>
   </div>
+  
   </>;
 };
 export default CartButton
