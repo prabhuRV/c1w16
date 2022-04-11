@@ -10,7 +10,10 @@ const CartButton = () => {
     }
     const handleDec=()=>
     {
+      if(count>0)
+      {
       setCount(count-1)
+      }
     }
   return <>
   {/* add to cart button */}

@@ -13,7 +13,7 @@ const GroceryItem = (props) => {
       <img className="images" src={imgURL} alt=""/>
       <h5>{title}</h5>
     <div className="prices"><p>{sellingPrice}</p>
-    <p><span>mrp :</span><span className="mrp" >{mrp}</span></p></div>
+    <p><span>MRP  :</span><span className="mrp" >{mrp}</span></p></div>
     
     
       <CartButton/>
